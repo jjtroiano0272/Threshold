@@ -1,0 +1,21 @@
+> A hollow knight 2d (or 2.5d) platformer/action/adventure/metroidvania that uses bloodborne’s rally and trick weapon system (for reaching enemies further away)
+
+> Uses a weapon combo combat system
+
+
+> Just getting one teensy level as MVP
+
+> Hollow Knight style, with a whip as your weapon (+ elemental powers) that you can use to swing across gaps or lasso things
+
+> Parry mechanic
+	- slightly zooms in, slows down, with depth of field and slight z rotation
+
+> Environment—Maybe in a certain area, have a periodic lighthouse light sweep over the whole scene with the directional light. Raises intrigue of ‘what the hell is that from’ to foreshadow another new area or enemy type?
+
+Visual
+——
+HK used a combination of particle effects AND animated sprites for more complex bits
+
+> Crepuscular light rays from top
+
+Cloest FG (to camera should be mostly black...basically anything a little closer than FG0 should get unlit shader)

@@ -1,0 +1,15 @@
+All files that are or will be contained in the free starter pack are meant to be used to follow Chosenplay Game Development tutorials 
+at: "https://www.youtube.com/channel/UCEq7B81g9WmbhXLJeu2uACw" but are yours to use for either free or paid projects with 
+no additional cost unless stated otherwise. 
+
+The only requirement is that you credit me (Luca Leonardi of Chosenplay) as the creator of the assets :)
+
+To be notified on upgrades to the pack you can join our discord channel by using this link: https://discord.gg/dDY8m8C
+
+As a last note if you ever find an error or a mistake inside the pack itself 
+(such as missing pixels or tiles not lining up or anything else) please do not hesitate in letting me know so I can make it better 
+in future releases :)
+
+Enjoy!
+
+Luca

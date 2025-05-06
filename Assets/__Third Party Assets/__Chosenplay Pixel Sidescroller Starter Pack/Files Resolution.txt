@@ -1,0 +1,11 @@
+Every object in the pack was created starting from the standard tile dimension of 48x48px.
+
+EXAMPLE:
+
+- Every object (bushes and stones) inside the country foldes was drawn inside a 48x48 tile.
+- Every tree inside the country folder is drawn using a 3x3 tileset so on a 144x144px dimention.
+- Also characters are drawn inside a 48x48 tile.
+
+Please keep this basic tile dimension in mind when cutting and importing sprites inside your game engine.
+
+Luca

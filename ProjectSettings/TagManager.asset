@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground2
+  - Water
+  - UI
+  - Background
+  - Foreground
+  - Grapple Point
+  - Grapple Surface
+  - Ground
+  - Wall
+  - Enemy
+  - Player
+  - CT_Ground
+  - CT_Player
+  - CT_Enemy
+  - CT_PlayerHitbox
+  - CT_EnemyHitbox
+  - CT_GroundDetection
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Foreground Close
+    uniqueID: 870924107
+    locked: 0
+  - name: Foreground
+    uniqueID: 4140487941
+    locked: 0
+  - name: Ground
+    uniqueID: 3305723655
+    locked: 0
+  - name: Fog Front1
+    uniqueID: 510317165
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Fog Back1
+    uniqueID: 613668193
+    locked: 0
+  - name: Midground Close
+    uniqueID: 3276601493
+    locked: 0
+  - name: Midground
+    uniqueID: 3413221823
+    locked: 0
+  - name: Background Close
+    uniqueID: 1185040573
+    locked: 0
+  - name: Background Far
+    uniqueID: 605783761
+    locked: 0
+  m_RenderingLayers:
+  - Default

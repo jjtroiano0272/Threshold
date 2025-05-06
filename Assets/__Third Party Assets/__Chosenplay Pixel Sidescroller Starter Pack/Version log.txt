@@ -1,0 +1,20 @@
+------
+Version 0.1
+
+Basic assets added to pack:
+- countryside ground tileset
+- countriside background layer 1 tileset
+- countriside background layer 2 tileset
+- countriside background layer 3 tileset
+- countryside stones
+- contryside bushes
+- countryside trees
+- knight character idle
+- knight character walk
+- knight character run
+- knight character atk 1
+- knight character atk 2
+- knight character atl 2
+- basic gradient sky
+
+------
