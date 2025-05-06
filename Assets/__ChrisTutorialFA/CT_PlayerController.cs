@@ -33,7 +33,7 @@ namespace TarodevController
         [Header("Squash/Stretch Animation FX")]
         [SerializeField]
         private float scaleTimer = 0f;
-        private bool isScaling = false;
+        private bool isScalingJumpAnim = false;
         private Vector3 baseScale;
         private AnimationCurve xScaleCurve;
 
@@ -150,7 +150,8 @@ namespace TarodevController
         //     }
         // }
 
-        private void RunScaleAnimation()
+        // TODO this probs needs to get fixed--causing move particles to get squashed on x
+        private void JumpScaleAnimation()
         {
             scaleTimer += Time.deltaTime;
             float t = scaleTimer / scaleDuration;
@@ -158,7 +159,7 @@ namespace TarodevController
 
             if (t >= 1f)
             {
-                isScaling = false;
+                isScalingJumpAnim = false;
                 transform.localScale = new Vector3(
                     baseScale.x * facingDirection,
                     baseScale.y,
@@ -217,7 +218,7 @@ namespace TarodevController
             jumpParticles.Play();
 
             scaleTimer = 0f;
-            isScaling = true;
+            isScalingJumpAnim = true;
         }
 
         private void FixedUpdate()
@@ -232,9 +233,9 @@ namespace TarodevController
                 animator.SetFloat(AnimationStrings.yVelocity, rb.linearVelocity.y);
 
                 // Handle scale animation if active and jumping
-                if (isScaling)
+                if (isScalingJumpAnim)
                 {
-                    RunScaleAnimation();
+                    JumpScaleAnimation();
                 }
             }
             // Disable player movement if dead
